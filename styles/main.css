@@ -5,19 +5,24 @@
 }*/
 
 body {
-  /*background: url("../images/nyc-background.jpg") no-repeat center center fixed;*/
-  background: url("../images/mac.jpg")no-repeat center center fixed;
+  background: url("../images/NYC2bc.jpg")no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
   text-align: center;
    }
 
+   .avatar {
+     position:absolute;
+     right: -4px;
+     top: 5px;
+     
+   }
+
 
 h1 {
   font-family: 'Homemade Apple', cursive;
   color: #000000
-  margin: 0 0 15px 0;
 }
 p {
   color: #444444;
@@ -48,7 +53,7 @@ body {
   padding: 15px;
   text-align: center;
 }
-.content section {
+.content {
   padding: 15px;
   width: 450px;
   margin: 0 auto;
